@@ -1,6 +1,9 @@
 function Main() {
     return (
-        <p>This is your first Vite Project</p>
+        <div className="container">
+        <p>This is your first vite project</p>
+        <p>&quot;Vite&quot; means &quot;quick&quot; in french</p>
+        </div>
     );
 };
 
