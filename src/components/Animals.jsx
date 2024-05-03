@@ -1,4 +1,5 @@
 import { data } from "../utils/constants.js"
+import './Animal.css'
 
 function Animal({ selectedAnimal }) {
     let animal = data.find((item) => {
@@ -9,7 +10,7 @@ function Animal({ selectedAnimal }) {
         return item.name == "default"
     })
 
-    return <img src={animal.image} alt={animal.name} />
+    return <img className="animal" src={animal.image} alt={animal.name} />
 }
 
 export default Animal;
